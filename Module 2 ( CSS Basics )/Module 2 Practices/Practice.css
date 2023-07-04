@@ -1,0 +1,123 @@
+/* Universal */
+* {
+  margin: 0px;
+}
+/* First Page */
+.external_div {
+  text-align: right;
+}
+
+.external_p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  background-color: antiquewhite;
+  color: salmon;
+}
+
+/* Second Page */
+.p2 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#tc {
+  color: turquoise;
+}
+#al {
+  text-align: center;
+}
+#fs {
+  font-size: 40px;
+}
+#fm {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#fst {
+  font-style: oblique;
+  text-decoration: line-through;
+  font-weight: 750;
+}
+
+/* Third Page */
+.head_three {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#third_div {
+  background-color: bisque;
+  margin: 10px 50px;
+  padding: 5px;
+  border-radius: 0px 25px 50px;
+  box-shadow: 10px 10px 10px goldenrod;
+}
+
+/* Fourth Page */
+
+.div_fourth_one {
+  background-color: #5390d9;
+  margin: 5px 10px 20px;
+  /* border: 10px; */
+  padding: 20px;
+  height: 100px;
+  box-shadow: 10px 10px 10px #80FFDB;
+  text-align: justify;
+}
+.div_fourth_two {
+  background-color: #4ea8de;
+  margin: 5px 30px 20px;
+  /* border: 30px; */
+  padding: 20px;
+  height: 80px;
+  box-shadow: 10px 10px 10px #72EFDD;
+  text-align: justify;
+}
+.div_fourth_three {
+  background-color: #48bfe3;
+  margin: 5px 50px 20px;
+  /* border: 50px; */
+  padding: 20px;
+  height: 60px;
+  box-shadow: 10px 10px 10px #5E60CE;
+  text-align: justify;
+}
+.div_fourth_fourth {
+  background-color: #56cfe1;
+  margin: 5px 70px 20px;
+  /* border: 50px; */
+  padding: 20px;
+  height: 60px;
+  box-shadow: 10px 10px 10px #6930C3;
+  text-align: justify;
+}
+.div_fourth_fifth {
+  background-color: #64dfdf;
+  margin: 5px 90px 20px;
+  /* border: 50px; */
+  padding: 20px;
+  height: 60px;
+  box-shadow: 10px 10px 10px #7400B8;
+  text-align: justify;
+}
+.div_fourth_pic1 {
+    height: 600px;
+    background-image: url('Blogging-Future-in-India.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div_fourth_pic2 {
+    height: 550px;
+    background-image: url('what-is-blogging.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border: 2px dotted #5390d9;
+}
+.div_fourth_pic3 {
+    height: 450px;
+    background-image: url('what_is_a_blog_used_for-f_mobile.png');
+    background-repeat: repeat-x;
+}

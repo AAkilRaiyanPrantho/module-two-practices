@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        *{
+            margin: 1px;
+        }
+
+        #first{
+            color: bisque;
+            background-color: tomato;
+            font-size: 25px;
+            width: 20%;
+        }
+        .ditio, .second{
+            color: antiquewhite;
+            background-color: coral;
+            text-align: center;
+            width: 40%;
+        }
+        .third{
+            font-size: 60px;
+        }
+
+        li{
+            font-size: 15px;
+            background-color: darkgoldenrod;
+            color: darkblue;
+            width: 10%;
+        }
+
+        #world_champions{
+            color: gold;
+            background-color: skyblue;
+            font-weight: 600;
+            font-size: 50px;
+            font-style: italic;
+            width: 75%;
+            text-align: center;
+
+        }
+
+        .decent{
+            background-color: blanchedalmond;
+            font-size: large;
+            width: 25%;
+            font-size: 30px;
+            color: purple;
+        }
+        input[type="text"],[type="password"]{
+            color: aqua;
+            font-size: larger;
+            background-color: darksalmon;
+        }
+        input[type="submit"]{
+            color: crimson;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors and Style Types</h1>
+    <h4>Asterisk (*) or the Universal Selector was used to affect the Margin Universally</h4>
+    <p style="color: rgb(21, 240, 240); font-size: 50px; font-weight: 700; background-color: rgb(155, 6, 255);">This is InLine CSS Style</p>
+    <p id="first">I was styles using ID Selector</p>
+    <p class="second">I was styles using Class Selector</p>
+    <p class="second">I was also styles using Class selector</p>
+    <p class="ditio">I was used to show Multiple Classes having the same properties in the Style section</p>
+    <p class="second third">I was styled using two different classes</p>
+
+    <h4>The list below was styles using Element or Tag selector and also the ID and class selector</h4>
+    <ol type="a">
+        <li id="world_champions">Argentina</li>
+        <li class="decent">Belgium</li>
+        <li>Canada</li>
+        <li class="decent">Denmark</li>
+        <li>Egypt</li>
+    </ol><br>
+
+    <h4>The Form Tag and the Input Tag is used to show the Attribute Selector</h4>
+
+    <form>
+        <input type="text" placeholder="Say My Name....">
+        <input type="password">
+        <input type="submit">
+    </form>
+</body>
+</html>
